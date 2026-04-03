@@ -1,22 +1,98 @@
-.navigation-links li {
+header {
+    background: linear-gradient(135deg, #22438C, #1a3266);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
     position: relative;
 }
 
-.navigation-bar {
-    background-color: #f8f8f8;
-    padding: 10px 20px;
-    display: flex;
-}
-
-#link {
-    color: black;
+.navbar ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
     text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
-.overview ul li {
-    text-decoration: none;
+/* Hover main links */
+.navbar ul li a:hover {
+    background-color: #112C66;
+    transform: translateY(-2px);
 }
 
-body {
-    background-color: yellow;
+/* Dropdown container */
+.navbar ul li ul.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #22438C;
+    min-width: 220px;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transition: all 0.3s ease;
+}
+
+/* Show dropdown */
+.navbar ul li:hover ul.dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Dropdown links */
+.navbar ul li ul.dropdown li a {
+    display: block;
+    padding: 12px 15px;
+    
+}
+
+.navbar ul li ul.dropdown li {
+    display: block;
+}
+
+/* Dropdown hover */
+.navbar ul li ul.dropdown li a:hover {
+    background: #112C66;
+    padding-left: 20px;
+}
+
+/*Main content section*/
+#intro h2 {
+    text-align: center;
+}
+
+#overview h2 {
+    text-align: center;
+}
+
+#purpose h2 {
+    text-align: center;
+}
+
+#history h3 {
+    text-align: center;
+}
+
+#significance h3 {
+    text-align: center;
+}
+
+#artistic h3 {
+    text-align: center;
+}
+
+#media h3 {
+    text-align: center;
 }
