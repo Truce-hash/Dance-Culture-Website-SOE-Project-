@@ -1,6 +1,6 @@
 header {
-    background: linear-gradient(135deg, #22438C, #1a3266);
-    /*box-shadow: 0 4px 12px rgba(0,0,0,0.2);*/
+    background: linear-gradient(135deg, #1a1a1a, #1a1a1a);
+ 
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 20px;
@@ -8,8 +8,11 @@ header {
 
 body{
     font-family: 'Roboto Slab', serif;
-    background-image: url('../assets/background.jpg');
-    background-size: cover;
+    background-image: url('../assets/blackwell.jpeg');
+    background-size:contain;
+    background-position: center;
+    background-attachment:fixed;  
+    image-rendering: auto;    
     color:white;
 }
 
@@ -36,7 +39,7 @@ body{
 
 /* Hover main links */
 .navbar ul li a:hover {
-    background-color: #112C66;
+    background-color: #FF5F1F;
     transform: translateY(-2px);
 }
 
@@ -45,7 +48,7 @@ body{
     position: absolute;
     top: 100%;
     left: 0;
-    background: #22438C;
+    background: #FF5F1F;
     min-width: 220px;
     list-style: none;
     opacity: 0;
@@ -74,7 +77,7 @@ body{
 
 /* Dropdown hover */
 .navbar ul li ul.dropdown li a:hover {
-    background: #112C66;
+    background: #FF5F1F;
     padding-left: 20px;
 }
 

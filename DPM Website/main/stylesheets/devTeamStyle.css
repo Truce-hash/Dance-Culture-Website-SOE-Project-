@@ -1,14 +1,8 @@
 
 
-body {
-    background: whitesmoke;
-    background-image: url(assets/background.jpg);
-    background-size: cover;
-    background-position: center;            /* centers the image */
-    background-repeat: no-repeat;           /* prevents tiling */
-    background-attachment: fixed;
-    font-family: 'Roboto Slab', serif;
-    overflow-x: hidden;
+.devteam{
+    margin: 100px auto;
+    max-width: 1200px;
 }
 
 .slideshow-header {
@@ -194,20 +188,20 @@ body {
 
 /*Thumb of scrollbar in modal*/
 .modal-content ::-webkit-scrollbar-thumb {
-    background: #1e90ff;
+    background: #FF5F1F;
     border-radius: 10px;
-    box-shadow: 0 0 8px #1e90ff;/*glow*/
+    box-shadow: 0 0 8px #FF5F1F;/*glow*/
 }
 /*Hover effect for thumb of scrollbar in modal*/
 .modal-content ::-webkit-scrollbar-thumb:hover {
-    background: #4aa3ff;
-    box-shadow: 0 0 12px #4aa3ff, 0 0 20px #4aa3ff; /* stronger glow on hover */
+    background: #FF5F1F;
+    box-shadow: 0 0 12px #FF5F1F, 0 0 20px #FF5F1F; /* stronger glow on hover */
 }
 
 /*firefox scrollbar*/
 .modal-content {
     scrollbar-width: thin;
-    scrollbar-color: #1e90ff #0a0a0a;
+    scrollbar-color: #FF5F1F #0a0a0a;
 }
 
 .modal-role {
@@ -241,7 +235,7 @@ body {
 }
 
 .social-btn:hover {
-    background: #0a84ff;
+    background: #FF5F1F;
     transform: translateY(-2px);
 }
 
