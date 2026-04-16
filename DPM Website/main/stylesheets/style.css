@@ -6,6 +6,8 @@ header {
 
 body{
     font-family: 'Roboto Slab', serif;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
 }
 
 .navbar ul {

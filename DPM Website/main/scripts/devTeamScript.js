@@ -3,7 +3,7 @@ const teamMembers = [
         name: "Kamohelo Phatsoane",
         role: "Lead Full-Stack Developer",
         bio: "Passionate about building beautiful, performant user interfaces with React and Three.js.",
-        image: "assets/Team/kamohelo.jpg",
+        image: "assets/Team/Kamohelo.jpeg",
         fullBio: "Kamohelo has over 3 years of experience crafting modern web experiences. Good in C#, Dart, HTML/CSS, JavaScript, Python, mobile app development using Flutter and 3D web animations. ",
         github: "https://github.com/Truce-hash",
         linkedin: "https://www.linkedin.com/in/kamohelo-phatsoane-2650883b6"
