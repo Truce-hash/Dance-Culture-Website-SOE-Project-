@@ -152,7 +152,8 @@ body {
     width: 90%;
     max-width: 460px;
     border-radius: 20px;
-    overflow: hidden;
+    max-height: 90vh;
+    overflow-y: auto;
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.7);
     position: relative;
 }
@@ -172,7 +173,7 @@ body {
 
 .modal-image {
     width: 100%;
-    height: 260px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -180,6 +181,33 @@ body {
     margin: 24px 24px 8px;
     font-size: 1.8rem;
     color: white;
+}
+
+/*Track scrollbar in modal */
+.modal-content ::-webkit-scrollbar-track{
+    background: #0a0a0a;
+}
+
+.modal-content ::-webkit-scrollbar {
+    width: 8px;
+}
+
+/*Thumb of scrollbar in modal*/
+.modal-content ::-webkit-scrollbar-thumb {
+    background: #1e90ff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #1e90ff;/*glow*/
+}
+/*Hover effect for thumb of scrollbar in modal*/
+.modal-content ::-webkit-scrollbar-thumb:hover {
+    background: #4aa3ff;
+    box-shadow: 0 0 12px #4aa3ff, 0 0 20px #4aa3ff; /* stronger glow on hover */
+}
+
+/*firefox scrollbar*/
+.modal-content {
+    scrollbar-width: thin;
+    scrollbar-color: #1e90ff #0a0a0a;
 }
 
 .modal-role {

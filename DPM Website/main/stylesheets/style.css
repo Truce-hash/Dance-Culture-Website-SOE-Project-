@@ -1,13 +1,16 @@
 header {
     background: linear-gradient(135deg, #22438C, #1a3266);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    border-radius: 5px;
+    /*box-shadow: 0 4px 12px rgba(0,0,0,0.2);*/
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
 }
 
 body{
     font-family: 'Roboto Slab', serif;
-    background-image: url('assets/background.jpg');
+    background-image: url('../assets/background.jpg');
     background-size: cover;
+    color:white;
 }
 
 .navbar ul {
@@ -15,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .navbar ul li {
