@@ -141,6 +141,21 @@ button.dropdown-toggle{
     align-items: center;
 }
 
+.video-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.video-container {
+    margin-bottom: 40px;
+}
+
+video {
+    width: 600px;
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+}
 .overview-link-list{
     display: flex;
     justify-content: center;
