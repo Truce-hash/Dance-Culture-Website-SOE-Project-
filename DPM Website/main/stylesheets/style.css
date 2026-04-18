@@ -9,13 +9,14 @@ header {
 body{
     font-family: 'Roboto Slab', serif;
     background-image: url('../assets/blackwell.jpeg');
+    background-image: url("../assets/Team/background.jpeg");
     background-size:contain;
     background-position: center;
-    background-attachment:fixed;       
     color:white;
    
    
 }
+
 
 button.dropdown-toggle{   
     background: none;
