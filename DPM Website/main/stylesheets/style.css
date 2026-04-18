@@ -137,3 +137,7 @@ button.dropdown-toggle{
 #transition-overlay.hidden {
   opacity: 0;
 }
+
+#media img{
+    align-items: center;
+}
