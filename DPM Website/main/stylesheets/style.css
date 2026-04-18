@@ -138,7 +138,7 @@ button.dropdown-toggle{
 }
 
 #media img{
-    align-items: center;
+    border-radius: 5px;
 }
 
 .video-section {
