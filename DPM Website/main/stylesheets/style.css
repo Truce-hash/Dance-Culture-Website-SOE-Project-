@@ -1,6 +1,5 @@
 header {
     background: linear-gradient(135deg, #1a1a1a, #1a1a1a);
- 
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 20px;
@@ -8,13 +7,12 @@ header {
 
 body{
     font-family: 'Roboto Slab', serif;
-    background-image: url('../assets/blackwell.jpeg');
-    background-image: url("../assets/Team/background.jpeg");
-    background-size:contain;
+    background-image: url('../assets/nicebackground.jpeg');
+    background-size:auto;
     background-position: center;
-    color:white;
-   
-   
+    background-attachment: fixed;
+    color:whitesmoke;
+      
 }
 
 
@@ -157,4 +155,42 @@ video {
     max-width: 90%;
     display: block;
     margin: 0 auto;
+}
+.overview-link-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.overview-link-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 220px;
+    min-height: 100px;
+    margin: 10px;
+    padding: 0;
+    background-color: #FF5F1F;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.overview-link-item:hover{
+    transform: translateY(-3px);
+    background-color: #ff7a44;
+}
+
+.overview-link-item a{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 20px 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
 }
