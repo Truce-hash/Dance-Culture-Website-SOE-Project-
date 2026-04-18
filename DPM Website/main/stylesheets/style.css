@@ -12,7 +12,6 @@ body{
     background-image: url("../assets/Team/background.jpeg");
     background-size:contain;
     background-position: center;
-    background-attachment:fixed;       
     color:white;
    
    
@@ -138,4 +137,8 @@ button.dropdown-toggle{
 
 #transition-overlay.hidden {
   opacity: 0;
+}
+
+#media img{
+    align-items: center;
 }

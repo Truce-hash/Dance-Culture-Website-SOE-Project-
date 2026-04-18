@@ -11,11 +11,11 @@ const teamMembers = [
     {
         name: "Sibusiso Lukhele",
         role: "Full-Stack Developer",
-        bio: "Say what you're good at here.",
-        image: "assets/Team/sibusiso.jpg",
-        fullBio: "Jordan specializes in high-performance backend systems and distributed architectures. Passionate about clean code, scalability, and mentoring junior developers.",
-        github: "#",
-        linkedin: "#"
+        bio: "Focused on building excellence and creating opportunities for future generations",
+        image: "assets/Team/Sibusiso.jpeg",
+        fullBio: "Sibusiso specializes in high-performance backend systems. Good in C#, Dart, HTML/CSS, JavaScript and mobile app development using flutter. Passionate about clean code, scalability, and guiding junior developers.",
+        github: "https://github.com/blessingmikay19-cyber",
+        linkedin: "https://www.linkedin.com/in/sibusiso-lukhele-a96494404/"
     },
     {
         name: "Asinikile Sodlulashe",
