@@ -178,6 +178,7 @@ video {
     border-radius: 12px;
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-sizing: border-box;
+    opacity: 0.9;
 }
 
 .overview-link-item:hover{
