@@ -40,18 +40,21 @@ const teamMembers = [
         role: "Backend Developer",
         bio: "Say what you're good at here.",
         image: "assets/Team/roman.jpg",
-        fullBio: "Casey ensures our systems are reliable, secure, and scalable. Expert in CI/CD pipelines and infrastructure as code.",
+        fullBio: "I love sleeping and mizing my collegues.",
         github: "#",
         linkedin: "#"
     },
     {
         name: "Musa Bonga",
         role: "Backend Developer",
-        bio: "Say what you're good at here.",
+        bio: "Third Year IT Diploma Student | Skilled in C#, JavaScript, HTML/CSS, and Flutter",
         image: "assets/Team/musa.jpg",
-        fullBio: "Riley loves delivering pixel-perfect experiences on every platform. Always exploring new mobile technologies and interaction patterns.",
-        github: "#",
-        linkedin: "#"
+        fullBio: "Musa thrives on building seamless digital experiences across web and mobile. Always exploring new backend patterns and cross platform frameworks, he blends C#, JavaScript, HTML/CSS, and Flutter to craft solutions that are both functional and elegant.",
+        github: "https://github.com/musabonga253-blip",
+        linkedin: "https://www.linkedin.com/in/musa-bonga-55abb7330"
+
+
+
     }
 ];
 
