@@ -218,3 +218,51 @@ video {
     transition: 1s;
 }
 
+
+
+.dance-card {
+    position: relative;
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 12px;
+    color: white;
+    overflow: hidden;
+}
+
+/* Overlay (important for readability) */
+.dance-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+/* Make text appear above overlay */
+.dance-card * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Individual backgrounds */
+.mokgibo-bg {
+    background: url("../assets/sotho\ attire.jpeg") center/cover no-repeat;
+}
+
+.xhosa-bg {
+    background: url("../assets/xhosa\ attire.jpeg") center/cover no-repeat;
+}
+
+.zulu-bg {
+    background: url("../assets/zulu\ attire.jpeg") center/cover no-repeat;
+}
+
+.tswana-bg {
+    background: url("../assets/tswana\ attire.jpeg") center/cover no-repeat;
+}
+
+.dance-card:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
