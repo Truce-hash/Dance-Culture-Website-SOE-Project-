@@ -91,7 +91,7 @@ button.dropdown-toggle{
 }
 
 /*Main content section*/
-#intro h2 {
+#introduction h2 {
     text-align: center;
 }
 
@@ -100,6 +100,10 @@ button.dropdown-toggle{
 }
 
 #purpose h2 {
+    text-align: center;
+}
+
+#media h2 {
     text-align: center;
 }
 
@@ -115,9 +119,6 @@ button.dropdown-toggle{
     text-align: center;
 }
 
-#media h3 {
-    text-align: center;
-}
 
 /*New stuff*/
 #transition-overlay {
@@ -138,5 +139,60 @@ button.dropdown-toggle{
 }
 
 #media img{
+    border-radius: 5px;
+}
+
+.video-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.video-container {
+    margin-bottom: 40px;
+}
+
+video {
+    width: 600px;
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.overview-link-list{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.overview-link-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 220px;
+    min-height: 100px;
+    margin: 10px;
+    padding: 0;
+    background-color: #FF5F1F;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
+.overview-link-item:hover{
+    transform: translateY(-3px);
+    background-color: #ff7a44;
+}
+
+.overview-link-item a{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 20px 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
 }

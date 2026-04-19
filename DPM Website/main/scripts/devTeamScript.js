@@ -20,7 +20,7 @@ const teamMembers = [
     {
         name: "Asinikile Sodlulashe",
         role: "Frontend Developer",
-        bio: "Say what you're good at here.",
+        bio: "Obsessed with motion design and developer experience. Excellent in React, JavaScript, and crafting delightful user interfaces.",
         image: "assets/Team/Cruz.jpeg",
         fullBio: "Asinikile enjoys working across the entire stack. Strong advocate for developer experience and building tools that make teams more productive.",
         github: "https://github.com/sodlulasheasinikile-debug",
@@ -38,9 +38,9 @@ const teamMembers = [
     {
         name: "Roman Tshabalala",
         role: "Backend Developer",
-        bio: "Say what you're good at here.",
+        bio: "I love sleeping and mizing my collegues.",
         image: "assets/Team/roman.jpg",
-        fullBio: "I love sleeping and mizing my collegues.",
+        fullBio: "Say what you're good at here",
         github: "#",
         linkedin: "#"
     },
