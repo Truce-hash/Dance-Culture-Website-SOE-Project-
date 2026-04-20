@@ -29,20 +29,20 @@ const teamMembers = [
     {
         name: "Siphosethu Mbasa",
         role: "Frontend Developer",
-        bio: "Creating delightful experiences. Obsessed with motion design and developer experience.",
+        bio: "Passionate about creating reliable backend systems and managing data-driven applications.",
         image: "assets/Team/mbasa.jpeg",
-        fullBio: "Say what you're good at here.",
-        github: "#",
-        linkedin: "#"
+        fullBio: "Specializes in backend logic, database integration, and application architecture. Experienced in working with C#, Python, and RESTful APIs. Focuses on building scalable systems, optimizing performance, and ensuring smooth communication between the server and front-end components.",
+        github: "https://github.com/224107046",
+        linkedin: "https://www.linkedin.com/in/siphosethu-mbasa-837959404"
     },
     {
         name: "Roman Tshabalala",
         role: "Backend Developer",
-        bio: "Say what you're good at here",
+        bio: "Focused on building secure, efficient systems that power applications behind the scenes.",
         image: "assets/Team/mshini.jpeg",
-        fullBio: "Say what you're good at here",
-        github: "#",
-        linkedin: "#"
+        fullBio: "Experienced in designing and maintaining server-side applications with strong problem-solving skills. Proficient in C# and database management using SQL and SQLite. Skilled in API development, data handling, and ensuring system performance and security in modern web applications.",
+        github: "https://github.com/RomanTshabalala",
+        linkedin: "https://www.linkedin.com/in/moeketsi-tshabalala-740b44404"
     },
     {
         name: "Musa Bonga",
