@@ -24,7 +24,7 @@ const teamMembers = [
         image: "assets/Team/Cruz.jpeg",
         fullBio: "Asinikile is a frontend developer focused on creating clean, interactive, and accessible web experiences using modern technologies like HTML, CSS, and JavaScript. Enjoys turning ideas into visually appealing and functional designs.",
         github: "https://github.com/sodlulasheasinikile-debug",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/asinikile-sodlulashe-9b1a8b3b0/"
     },
     {
         name: "Siphosethu Mbasa",
