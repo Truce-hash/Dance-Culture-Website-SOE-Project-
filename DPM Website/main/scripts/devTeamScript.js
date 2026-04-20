@@ -2,9 +2,9 @@ const teamMembers = [
     {
         name: "Kamohelo Phatsoane",
         role: "Lead Full-Stack Developer",
-        bio: "Passionate about building beautiful, performant user interfaces with React and Three.js.",
+        bio: "Problem solver at heart, passionate about crafting seamless digital experiences. ",
         image: "assets/Team/Kamohelo.jpeg",
-        fullBio: "Kamohelo has over 3 years of experience crafting modern web experiences. Good in C#, Dart, HTML/CSS, JavaScript, Python, mobile app development using Flutter and 3D web animations. ",
+        fullBio: "Witht over 3 years of experience in crafting modern web experiences and moblie applications. Good in C#, Dart, HTML/CSS, JavaScript, Python, mobile app development using Flutter and 3D web animations. ",
         github: "https://github.com/Truce-hash",
         linkedin: "https://www.linkedin.com/in/kamohelo-phatsoane-2650883b6"
     },
@@ -21,7 +21,6 @@ const teamMembers = [
         name: "Asinikile Sodlulashe",
         role: "Frontend Developer",
         bio: "Passionate about building responsive and user-friendly web interfaces.",
-        bio: "Obsessed with motion design and developer experience. Excellent in React, JavaScript, and crafting delightful user interfaces.",
         image: "assets/Team/Cruz.jpeg",
         fullBio: "Asinikile is a frontend developer focused on creating clean, interactive, and accessible web experiences using modern technologies like HTML, CSS, and JavaScript. Enjoys turning ideas into visually appealing and functional designs.",
         github: "https://github.com/sodlulasheasinikile-debug",
@@ -67,6 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const angleStep = 360 / numSlides;
     const radius = 395;
 
+    // Color assignments for each team member
+    const profileColors = ['color-cyan', 'color-purple', 'color-pink', 'color-green', 'color-red', 'color-orange'];
+
     let currentAngle = 0;
     let autoRotateInterval = null;
     let isPaused = false;
@@ -75,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create slides
     teamMembers.forEach((member, index) => {
         const slide = document.createElement('div');
-        slide.className = 'slide';
+        slide.className = `slide ${profileColors[index]}`;
         slide.dataset.index = index;
         
         const rotation = index * angleStep;

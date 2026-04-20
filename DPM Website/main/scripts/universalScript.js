@@ -32,3 +32,31 @@ window.addEventListener("load", () => {
 });
 
 // This script above handles the introductory animation on the home page, displaying a welcome message and then sliding it up to reveal the main content. 
+
+// Page transition - Horizontal fade in/out effect
+document.addEventListener("DOMContentLoaded", () => {
+    const mainElement = document.querySelector("main");
+    const navLinks = document.querySelectorAll("a");
+
+    if (!mainElement) return;
+
+    // Add click event listener to all links
+    navLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+            const href = link.getAttribute("href");
+
+            // Only handle internal page navigation (not anchor links, dropdowns, or external links)
+            if (href && href.endsWith(".html") && !href.startsWith("http")) {
+                e.preventDefault();
+
+                // Apply fade-out animation
+                mainElement.classList.add("fade-out");
+
+                // Navigate after animation completes
+                setTimeout(() => {
+                    window.location.href = href;
+                }, 500); // Match the duration of fadeOutLeft animation (0.5s)
+            }
+        });
+    });
+});
