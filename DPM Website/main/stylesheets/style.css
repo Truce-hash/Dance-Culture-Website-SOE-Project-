@@ -92,7 +92,7 @@ button.dropdown-toggle{
 }
 
 /*Main content section*/
-#introduction h2 {
+#introduction h1 {
     text-align: center;
 }
 
@@ -265,4 +265,16 @@ video {
 .dance-card:hover {
     transform: scale(1.02);
     transition: 0.3s;
+}
+
+.dance-origins h1 {
+    text-align: center;
+}
+
+#interview-overview h1 {
+    text-align: center;
+}
+
+#stakeholder-content h1 {
+    text-align: center;
 }
