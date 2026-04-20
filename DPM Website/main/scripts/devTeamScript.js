@@ -201,5 +201,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Start everything
     startAutoRotate();
 
-    console.log('%c✅ Phase 3 Complete: Clickable Team Showcase with Modal Profiles!', 'color:#0ff; font-weight:bold');
+    
 });
