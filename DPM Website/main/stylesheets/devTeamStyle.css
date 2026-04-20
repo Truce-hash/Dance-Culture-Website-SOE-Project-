@@ -44,21 +44,65 @@
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
     backface-visibility: hidden;
     
-    border: 3px solid rgba(100, 200, 255, 0.6);
+    /*border: 3px solid #FF5F1F;*/
     box-shadow: 
-        0 0 25px rgba(100, 200, 255, 0.8),
-        0 0 50px rgba(100, 200, 255, 0.4),
+        0 0 25px #FF5F1F,
+        0 0 50px #fa591a,
         inset 0 0 18px rgba(255, 255, 255, 0.2);
     transition: all 0.4s ease;
 }
 
 .slide:hover {
     box-shadow: 
-        0 0 45px rgba(100, 200, 255, 1),
-        0 0 80px rgba(100, 200, 255, 0.7),
+        0 0 45px #8a2be2,
+        0 0 80px #8a2be2,
         inset 0 0 25px rgba(255, 255, 255, 0.4);
     transform: scale(1.05);
 }
+
+/* Individual profile glow colors */
+.slide.color-cyan:hover {
+    box-shadow: 
+        0 0 45px #9370DB,
+        0 0 80px #9370DB,
+        inset 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+.slide.color-purple:hover {
+    box-shadow: 
+        0 0 45px #40D3DC,
+        0 0 80px #40D3DC,
+        inset 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+.slide.color-pink:hover {
+    box-shadow: 
+        0 0 45px #FF1493,
+        0 0 80px #FF1493,
+        inset 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+.slide.color-green:hover {
+    box-shadow: 
+        0 0 45px #00FF7F,
+        0 0 80px #00FF7F,
+        inset 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+.slide.color-red:hover {
+    box-shadow: 
+        0 0 45px #FF6347,
+        0 0 80px #FF6347,
+        inset 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+.slide.color-orange:hover {
+    box-shadow: 
+        0 0 45px #FFF5E0,
+        0 0 80px #FFF5E0,
+        inset 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
 .slide img {
     width: 100%;
     height: 100%;
@@ -103,7 +147,7 @@
 
 .role {
     font-size: 0.95rem;
-    color: #a0d8ff;
+    color: #FF5F1F;
     margin: 0;
     font-weight: 500;
    

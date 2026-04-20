@@ -96,29 +96,10 @@ button.dropdown-toggle{
     text-align: center;
 }
 
-#overview h2 {
+h2 {
     text-align: center;
 }
-
-#purpose h2 {
-    text-align: center;
-}
-
-#media h2 {
-    text-align: center;
-}
-
-#history h2 {
-    text-align: center;
-}
-
-#significance h2 {
-    text-align: center;
-}
-
-#artistic h2 {
-    text-align: center;
-}
+/*removed text-align for overview, introduction, purpose, media, history, significance and artistic sections*/
 
 #media img{
     border-radius: 5px;
@@ -206,7 +187,7 @@ video {
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .name{
@@ -327,3 +308,48 @@ video {
 .slider-nav a:hover {
     opacity: 1;
 }
+
+
+
+/* Page Transition Container */
+
+/* Keyframe animations for horizontal page transitions */
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOutLeft {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+}
+
+/* Apply fade-in animation to main content on page load */
+header {
+    animation: fadeInRight 0.4s ease-in-out;
+}
+
+/* Apply fade-out animation when leaving page */
+header.fade-out {
+    animation: fadeOutLeft 0.4s ease-in-out forwards;
+}
+
+#introduction, #overview, #purpose, #media, #history, #significance, #artistic {
+    animation: fadeInRight 0.6s ease-in-out;
+}
+#introduction.fade-out, #overview.fade-out, #purpose.fade-out, #media.fade-out, #history.fade-out, #significance.fade-out, #artistic.fade-out {
+    animation: fadeOutLeft 0.6s ease-in-out forwards;
+}
+
