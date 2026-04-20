@@ -21,7 +21,6 @@ const teamMembers = [
         name: "Asinikile Sodlulashe",
         role: "Frontend Developer",
         bio: "Passionate about building responsive and user-friendly web interfaces.",
-        bio: "Obsessed with motion design and developer experience. Excellent in React, JavaScript, and crafting delightful user interfaces.",
         image: "assets/Team/Cruz.jpeg",
         fullBio: "Asinikile is a frontend developer focused on creating clean, interactive, and accessible web experiences using modern technologies like HTML, CSS, and JavaScript. Enjoys turning ideas into visually appealing and functional designs.",
         github: "https://github.com/sodlulasheasinikile-debug",
