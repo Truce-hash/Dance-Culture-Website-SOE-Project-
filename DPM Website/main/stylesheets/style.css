@@ -346,10 +346,10 @@ header.fade-out {
     animation: fadeOutLeft 0.4s ease-in-out forwards;
 }
 
-#introduction, #overview, #purpose, #media, #history, #significance, #artistic {
+section {
     animation: fadeInRight 0.6s ease-in-out;
-}
-#introduction.fade-out, #overview.fade-out, #purpose.fade-out, #media.fade-out, #history.fade-out, #significance.fade-out, #artistic.fade-out {
-    animation: fadeOutLeft 0.6s ease-in-out forwards;
-}
 
+}
+ h1, h2{
+    animation: fadeInRight 0.8s ease-in-out;
+ }
