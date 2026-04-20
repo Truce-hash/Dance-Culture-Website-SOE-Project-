@@ -60,3 +60,48 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+// Auto-sliding carousel functionality
+document.addEventListener("DOMContentLoaded", () => {
+    const slider = document.getElementById("autoSlider");
+    const sliderDots = document.querySelectorAll(".slider-dot");
+    
+    if (!slider || sliderDots.length === 0) return;
+
+    let currentSlide = 0;
+    const totalSlides = sliderDots.length;
+    const slideInterval = 4000; // 4 seconds per slide
+
+    function updateSlider() {
+        const scrollPosition = (currentSlide * 100);
+        slider.scrollLeft = (slider.offsetWidth * currentSlide);
+
+        // Update active dot
+        sliderDots.forEach((dot, index) => {
+            dot.classList.remove("active");
+            if (index === currentSlide) {
+                dot.classList.add("active");
+            }
+        });
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateSlider();
+    }
+
+    // Auto-advance slides
+    setInterval(nextSlide, slideInterval);
+
+    // Allow manual navigation via dots
+    sliderDots.forEach((dot, index) => {
+        dot.addEventListener("click", (e) => {
+            e.preventDefault();
+            currentSlide = index;
+            updateSlider();
+        });
+    });
+
+    // Initialize
+    updateSlider();
+});

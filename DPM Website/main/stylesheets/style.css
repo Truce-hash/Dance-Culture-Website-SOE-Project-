@@ -312,6 +312,11 @@ video {
     opacity: 1;
 }
 
+.slider-nav a.active {
+    background-color: #FF5F1F;
+    opacity: 1;
+}
+
 
 
 /* Page Transition Container */
