@@ -31,7 +31,7 @@ const teamMembers = [
         name: "Siphosethu Mbasa",
         role: "Frontend Developer",
         bio: "Creating delightful experiences. Obsessed with motion design and developer experience.",
-        image: "assets/Team/siphosethu.jpg",
+        image: "assets/Team/mbasa.jpeg",
         fullBio: "Say what you're good at here.",
         github: "#",
         linkedin: "#"
@@ -39,8 +39,8 @@ const teamMembers = [
     {
         name: "Roman Tshabalala",
         role: "Backend Developer",
-        bio: "I love sleeping and mizing my collegues.",
-        image: "assets/Team/roman.jpg",
+        bio: "Say what you're good at here",
+        image: "assets/Team/mshini.jpeg",
         fullBio: "Say what you're good at here",
         github: "#",
         linkedin: "#"
@@ -49,7 +49,7 @@ const teamMembers = [
         name: "Musa Bonga",
         role: "Backend Developer",
         bio: "Third Year IT Diploma Student | Skilled in C#, JavaScript, HTML/CSS, and Flutter",
-        image: "assets/Team/musa.jpg",
+        image: "assets/Team/image.jpeg",
         fullBio: "Musa thrives on building seamless digital experiences across web and mobile. Always exploring new backend patterns and cross platform frameworks, he blends C#, JavaScript, HTML/CSS, and Flutter to craft solutions that are both functional and elegant.",
         github: "https://github.com/musabonga253-blip",
         linkedin: "https://www.linkedin.com/in/musa-bonga-55abb7330"
