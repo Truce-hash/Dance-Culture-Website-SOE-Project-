@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let currentSlide = 0;
     const totalSlides = sliderDots.length;
-    const slideInterval = 4000; // 4 seconds per slide
+    const slideInterval = 3000; // 3 seconds per slide
 
     function updateSlider() {
         const scrollPosition = (currentSlide * 100);

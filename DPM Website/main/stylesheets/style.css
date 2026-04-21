@@ -238,19 +238,19 @@ video {
 
 /* Individual backgrounds */
 .mokgibo-bg {
-    background: url("../assets/sotho\ attire.jpeg") center/cover no-repeat;
+    background: url("../assets/sotho\ dance.jpeg") center/cover no-repeat;
 }
 
 .xhosa-bg {
-    background: url("../assets/xhosa\ attire.jpeg") center/cover no-repeat;
+    background: url("../assets/xhosa\ dance.jpeg") center/cover no-repeat;
 }
 
 .zulu-bg {
-    background: url("../assets/zulu\ attire.jpeg") center/cover no-repeat;
+    background: url("../assets/zuluAttire.jpeg") center/cover no-repeat;
 }
 
 .tswana-bg {
-    background: url("../assets/tswana\ attire.jpeg") center/cover no-repeat;
+    background: url("../assets/tswana\ dance.jpeg") center/cover no-repeat;
 }
 
 .dance-card:hover {
@@ -365,7 +365,7 @@ section {
     animation: fadeInRight 0.6s ease-in-out;
 
 }
- h1, h2{
+ h1 h2{
     animation: fadeInRight 0.8s ease-in-out;
  }
 
@@ -451,3 +451,11 @@ footer{
     box-shadow: 0 4px 12px rgba(255, 95, 31, 0.4);
 }
 
+p{
+    text-align: center;
+}
+
+our-journey-video{
+    width: 500vw;
+    margin-left: calc(-50vw + 50%);
+}
