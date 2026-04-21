@@ -104,8 +104,15 @@ h2 {
 }
 /*removed text-align for overview, introduction, purpose, media, history, significance and artistic sections*/
 
-#media img{
-    border-radius: 5px;
+.media-image {
+    max-width: 48rem;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.25rem;
 }
 
 .video-section {
@@ -443,3 +450,4 @@ footer{
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(255, 95, 31, 0.4);
 }
+
