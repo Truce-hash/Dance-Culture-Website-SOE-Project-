@@ -1,5 +1,5 @@
-# Dance-Culture-Website-SOE-Project-
-A dance culture website  for a Software Enginnering 3 school group project, meant to showcase the various kinds of cultural dance styles and their history.
+# Dance Culture Website
+A dance culture website meant to showcase the various kinds of cultural dance styles and their history.
 
 ## Authors
 Developed by **M.S.KAMS**:
